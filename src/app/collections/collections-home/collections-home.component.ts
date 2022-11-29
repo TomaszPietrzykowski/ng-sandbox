@@ -15,6 +15,6 @@ export class CollectionsHomeComponent {
     { key: 'name', label: 'Name' },
     { key: 'age', label: 'Age' },
     { key: 'job', label: 'Job' },
-    { key: 'employed', label: 'Has Job' },
+    { key: 'employed', label: 'Has a Job?' },
   ];
 }
