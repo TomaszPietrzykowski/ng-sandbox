@@ -1,1 +1,5 @@
-<p>mods-home works!</p>
+<app-divider>
+    Modal component
+</app-divider>
+<button (click)="onClick()">Open Modal</button>
+<app-modal (close)="onClick()" *ngIf="modalOpen"></app-modal>

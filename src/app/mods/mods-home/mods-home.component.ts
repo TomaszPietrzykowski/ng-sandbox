@@ -3,8 +3,12 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-mods-home',
   templateUrl: './mods-home.component.html',
-  styleUrls: ['./mods-home.component.scss']
+  styleUrls: ['./mods-home.component.scss'],
 })
 export class ModsHomeComponent {
+  modalOpen: boolean = false;
 
+  onClick() {
+    this.modalOpen = !this.modalOpen;
+  }
 }
